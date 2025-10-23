@@ -827,6 +827,7 @@ html {
   justify-content: center;
   z-index: 9999;
   transition: opacity 0.6s ease, visibility 0.6s ease;
+  display: none;
 }
 
 #preloader.hidden {
@@ -870,13 +871,6 @@ html {
 
 
 
-main {
-  background-color: #30231c;
-  position: relative;
-  z-index: 400;
-  bottom: 18px;
-  border-radius: 32px;
-}
 
 
 .stats {

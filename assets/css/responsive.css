@@ -499,3 +499,26 @@
     gap: 10px;
   }
 }
+
+@media screen and (min-width: 1390px) {
+  .top-nav{
+    margin-bottom: 7% !important;
+  }
+
+  #about{
+    margin-top: 0%;
+  }
+}
+
+
+@media screen and (min-width: 1500px){
+  #about{
+    margin-top: 4%;
+  }
+}
+
+@media screen and (min-width: 1600px){
+  #about{
+    margin-top: 10%;
+  }
+}
