@@ -525,6 +525,7 @@
 
 .apps-list{
   display: flex;
+  margin-bottom: 10px;
 }
 
 .apps-list img{
