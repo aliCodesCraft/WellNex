@@ -522,3 +522,25 @@
     margin-top: 10%;
   }
 }
+
+.apps-list{
+  display: flex;
+}
+
+.apps-list img{
+  width: 100px;
+}
+
+@media screen and (max-width:550px) {
+    .apps-list{
+      flex-direction: column !important;
+    }
+
+    .apps-list img{
+      width: 80px !important;
+    }
+  .app-text{
+    font-size: 17px !important;
+    margin-top: 10px;
+  }
+}
