@@ -117,8 +117,9 @@ html {
   color: #0b0b0b;
 }
 
-.btn.cta:hover {
-  box-shadow: 0 0 12px var(--neon);
+.hero-cta .btn-cta:hover {
+  box-shadow: 0 0 12px var(--neon) !important;
+  cursor: pointer;
 }
 
 
@@ -827,7 +828,6 @@ html {
   justify-content: center;
   z-index: 9999;
   transition: opacity 0.6s ease, visibility 0.6s ease;
-  display: none;
 }
 
 #preloader.hidden {
